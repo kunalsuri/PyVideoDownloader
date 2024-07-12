@@ -1,3 +1,5 @@
+# 12.07.2024 | Updated the cipher.py file to remove the dowloading bug for pytube v15.0.0 (based on https://github.com/pytube/pytube/issues/1954)
+
 import streamlit as st
 from pytube import YouTube
 import os
