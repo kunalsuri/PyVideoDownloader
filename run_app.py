@@ -3,7 +3,7 @@ import subprocess
 
 # Run Streamlit script using subprocess
 def run_streamlit():
-    streamlit_file = "YouTube_Downloader.py"
+    streamlit_file = "youtube_downloader.py"
     subprocess.Popen(["streamlit", "run", streamlit_file])
 
 if __name__ == "__main__":
